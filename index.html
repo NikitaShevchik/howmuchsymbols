@@ -19,7 +19,30 @@
 		<div class="conteiner">
 			<div class="counter">
 				<textarea class="counter__textarea"></textarea>
-				<div class="counter__text"></div>
+				<form class="counter__form show">
+					<div>
+						<input type="checkbox" name="show__words">
+						<label for="show__words">Показать количество слов</label>
+					</div>
+					<div>
+						<input type="checkbox" name="show__symbols">
+						<label for="show__symbols">Показать количество символов</label>
+					</div>
+					<div>
+						<input type="checkbox" name="show__symbolsnotspace">
+						<label for="show__symbolsnotspace">Показать количество символов без пробелов</label>
+					</div>
+					<div>
+						<input type="checkbox" name="show__procentage">
+						<label for="show__procentage">Показать проценты символов и пробелов в тексте</label>
+					</div>
+				</form>
+				<div class="counter__text text">
+					<div class="text__words"></div>
+					<div class="text__symbols"></div>
+					<div class="text__symbolsnotspace"></div>
+					<div class="text__procentage"></div>
+				</div>
 			</div>
 		</div>
 	</main>

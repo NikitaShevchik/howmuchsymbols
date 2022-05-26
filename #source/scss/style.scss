@@ -28,4 +28,31 @@ body{
             color: #fff;
             font-size: 20px;
 		}
+        &__form {
+            display: flex;
+            flex-direction: column;
+            padding: 20px 0;
+        }
+}
+
+
+.counter {
+
+}
+.show {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.text {
+    font-size: 20px;
+    color: #fff;
+    &__words, &__symbols, &__symbolsnotspace, &__procentage {
+        display: none;
+    }
+}
+
+.enabled{
+    display: block;
 }
