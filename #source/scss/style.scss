@@ -1,0 +1,31 @@
+// Обнуление стилей
+@import "nullstyle.scss";
+// Подключение шрифтов
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+//SCSS
+body{
+    background-color: #333;
+}
+
+.main{
+    font-family: 'Raleway', sans-serif;
+}
+.conteiner {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.counter {
+    padding: 50px 0;
+		&__textarea {
+            width: 400px;
+            height: 200px;
+            font-family: 'Raleway', sans-serif;
+            font-size: 20px;
+            resize: none;
+            padding: 5px;
+		}
+		&__text {
+            color: #fff;
+            font-size: 20px;
+		}
+}
