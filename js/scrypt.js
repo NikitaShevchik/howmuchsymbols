@@ -45,9 +45,6 @@ showProcentagesCheck.addEventListener('change', function () {
     }
 });
 
-
-
-
 var counterWord;
 var counterSymbol;
 
@@ -71,7 +68,6 @@ function countWords() {
     textShowSymbolsNotSpace.innerHTML = `<p>В тексте ${counterSymbol} символов без пробелов</p>`;
     textShowProcentage.innerHTML = ` <p>В тексте ${procentSymbol} % символов</p>
     <p>В тексте ${100 - procentSymbol} % пробелов</p>`;
-
 }
 function emptyText() {
     textShowWords.innerHTML = '';
